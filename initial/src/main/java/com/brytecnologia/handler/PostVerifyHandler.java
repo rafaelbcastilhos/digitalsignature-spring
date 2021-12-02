@@ -10,6 +10,15 @@ import java.io.IOException;
 import java.security.cert.CertificateException;
 
 public class PostVerifyHandler {
+    /**
+     *
+     * @param file é o arquivo assinado
+     * @return Status da execução, se é válido ou não
+     * @throws IOException
+     * @throws CertificateException
+     * @throws CMSException
+     * @throws OperatorCreationException
+     */
     public String handleRequest(MultipartFile file)
             throws IOException, CertificateException, CMSException, OperatorCreationException {
         String UPLOAD_DIRECTORY = "./resources/upload/";

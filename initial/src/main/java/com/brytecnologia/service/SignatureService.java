@@ -30,6 +30,9 @@ public class SignatureService {
         return INSTANCE;
     }
 
+    /**
+     * Realiza uma assinatura digital usando o algoritmo de resumo criptográfico SHA256 e RSA assimétrico
+     */
     public String signRSAwithSHA256(FileInputStream file, FileInputStream pfx, String password, String alias)
             throws KeyStoreException, CertificateException, IOException, NoSuchAlgorithmException,
             UnrecoverableKeyException, OperatorCreationException, CMSException {
