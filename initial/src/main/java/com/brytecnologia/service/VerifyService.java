@@ -26,6 +26,9 @@ public class VerifyService {
         return INSTANCE;
     }
 
+    /**
+     * Verifica assinatura gerada
+     */
     public static String verifySignature(FileInputStream file)
             throws IOException, CMSException, CertificateException, OperatorCreationException {
         boolean valid = false;

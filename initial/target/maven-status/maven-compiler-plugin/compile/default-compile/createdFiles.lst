@@ -1,7 +1,0 @@
-com/brytecnologia/service/VerifyService.class
-com/brytecnologia/handler/PostSignatureHandler.class
-com/brytecnologia/service/SignatureService.class
-com/brytecnologia/application/ApiController.class
-com/brytecnologia/handler/PostVerifyHandler.class
-com/brytecnologia/application/Application.class
-com/brytecnologia/helper/FileHelper.class
