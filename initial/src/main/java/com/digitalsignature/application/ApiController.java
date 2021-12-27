@@ -20,7 +20,7 @@ import java.security.cert.CertificateException;
 public class ApiController {
 	@GetMapping("/")
 	public String index() {
-		return "Para acessar a documentação da API REST, acesse: http://brytecnologia-api.s3-website-sa-east-1.amazonaws.com/";
+		return "Greetings from Spring Boot!";
 	}
 
 	@PostMapping("/signature")
