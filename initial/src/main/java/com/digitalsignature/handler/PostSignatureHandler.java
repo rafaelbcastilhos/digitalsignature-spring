@@ -1,7 +1,7 @@
-package com.brytecnologia.handler;
+package com.digitalsignature.handler;
 
-import com.brytecnologia.helper.FileHelper;
-import com.brytecnologia.service.SignatureService;
+import com.digitalsignature.helper.FileHelper;
+import com.digitalsignature.service.SignatureService;
 import org.bouncycastle.cms.CMSException;
 import org.bouncycastle.operator.OperatorCreationException;
 import org.springframework.web.multipart.MultipartFile;

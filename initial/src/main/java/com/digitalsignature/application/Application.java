@@ -1,4 +1,4 @@
-package com.brytecnologia.application;
+package com.digitalsignature.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

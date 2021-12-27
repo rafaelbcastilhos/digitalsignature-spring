@@ -1,4 +1,4 @@
-package com.brytecnologia.service;
+package com.digitalsignature.service;
 
 import org.apache.commons.io.IOUtils;
 import org.bouncycastle.cert.X509CertificateHolder;

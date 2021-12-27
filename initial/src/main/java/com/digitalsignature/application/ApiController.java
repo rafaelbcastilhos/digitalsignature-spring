@@ -1,7 +1,7 @@
-package com.brytecnologia.application;
+package com.digitalsignature.application;
 
-import com.brytecnologia.handler.PostSignatureHandler;
-import com.brytecnologia.handler.PostVerifyHandler;
+import com.digitalsignature.handler.PostSignatureHandler;
+import com.digitalsignature.handler.PostVerifyHandler;
 import org.bouncycastle.cms.CMSException;
 import org.bouncycastle.operator.OperatorCreationException;
 import org.springframework.web.bind.annotation.GetMapping;
